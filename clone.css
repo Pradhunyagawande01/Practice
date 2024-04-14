@@ -33,6 +33,61 @@
     width: 100%;
     z-index: -1;
     object-fit: cover;
-
    }
    
+   h1{
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    font-size: 10rem;
+    transform:translateX(-50%);font-size: 10 rem;
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    letter-spacing: 4px;
+   }
+   
+   section{
+    padding: 5 rem;
+    color: #ffffff;
+    background-color: rgb(45,45,45); 
+   }
+
+   .secheading{
+    padding: 0 10rem;
+    font-size: 5rem;
+   }
+   .text{
+    margin: 5rem 0;
+    padding: 0 10rem;
+    font-size: 1.5rem;
+   }
+   .bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+   }
+
+   .bg1{
+    background-image: url(sport-1.jpg);
+   }
+
+   .bg2{
+    background-image: url(sport-2.jpg);
+   }
+
+   .bg3{
+    background-image: url(sport-3.jpg);
+   }
+   .DESC{
+    position: absolute;
+    padding:0.5rem 2.5rem ;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0,0.5);
+    font-size: 3.5rem;
+    font-weight: 500;
+   }
